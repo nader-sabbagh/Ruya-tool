@@ -1,0 +1,15 @@
+{
+  "name": "ruya-tool-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Single-file interactive walkthrough prototype for a decision-support consultancy tool.",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "devDependencies": {
+    "@babel/core": "^7",
+    "@babel/preset-react": "^7",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}

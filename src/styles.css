@@ -1,0 +1,11 @@
+* { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body { -webkit-font-smoothing: antialiased; }
+  #root { min-height: 100vh; }
+  button { font-family: inherit; cursor: pointer; }
+  input[type="range"] { width: 100%; }
+  ::selection { background: rgba(120,120,120,0.2); }
+  .fadein { animation: fadein .45s ease both; }
+  @keyframes fadein { from { opacity: 0; transform: translateY(6px);} to {opacity:1; transform:none;} }
+  @keyframes pulse { 0%{opacity:.25} 50%{opacity:1} 100%{opacity:.25} }
+  .scrollx { overflow-x: auto; }
